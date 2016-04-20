@@ -1,0 +1,7 @@
+[package]
+name = "stridist"
+version = "0.1.0"
+authors = ["Kaiyin Zhong <kindlychung@gmail.com>"]
+
+[dependencies]
+csv = "0.14.4"
