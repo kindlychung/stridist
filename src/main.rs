@@ -33,18 +33,12 @@ macro_rules! def_func {
 
 
 fn main() {
-    let mut rdr = csv::Reader::from_file("/tmp/xxx.csv").unwrap();
-    for record in rdr.decode() {
-        let (name, i1, i2, i3): (String, u32, u32, u32) = record.unwrap();
-        println!("{}: {}, {}, {}", name, i1, i2, i3);
-    }
-    let x: Vec<i32> = myvec!(1, 2, 3);
-    println!("{:?}", x);
-    println!("{}", five_times!(2 + 6));
-    let_ident!(xx);
-    println!("{}", xx);
-    def_func!();
-    println!("{}", return333());
-    use distfuncs::addtwo;
-    println!("{:?}", addtwo(32));
+    let rdr = || csv::Reader::from_file("/tmp/xxx.csv").unwrap().has_headers(false);
+
+    let mut index_data = io::Cursor::new(Vec::new());
+    create_index(rdr(), index_data.by_ref()).unwrap();
+    let mut index = Indexed::open(rdr(), index_data).unwrap();
+
+    index.seek(0).unwrap();
+    let row = index.records().next().unwrap().unwrap();
 }
