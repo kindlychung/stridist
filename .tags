@@ -1,0 +1,259 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+BUF_SIZE	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^const BUF_SIZE: usize = 1024 * 128;$/;"	c
+BorrowBytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^pub trait BorrowBytes {$/;"	t
+ByteRecords	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub struct ByteRecords<'a, R: 'a> {$/;"	s
+ByteString	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^pub type ByteString = Vec<u8>;$/;"	T
+Bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    type Bytes = io::Cursor<Vec<u8>>;$/;"	T
+CSV_DATA	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^static CSV_DATA: &'static str = ".\/examples\/data\/bench.csv";$/;"	c
+CsvReader	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    type CsvReader = Reader<io::Cursor<Vec<u8>>>;$/;"	T
+Decoded	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^pub struct Decoded {$/;"	s
+DecodedRecords	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub struct DecodedRecords<'a, R: 'a, D> {$/;"	s
+Encoded	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^pub struct Encoded {$/;"	s
+Err	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/rational_numbers.rs	/^    type Err = String;$/;"	T
+Error	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    type Error = Error;$/;"	T
+Error	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    type Error = Error;$/;"	T
+Error	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^pub enum Error {$/;"	g
+Indexed	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    type Indexed = super::Indexed<Bytes, Bytes>;$/;"	T
+Indexed	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^pub struct Indexed<R, I> {$/;"	s
+Item	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    type Item = Result<&'a [u8]>;$/;"	T
+Item	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    type Item = Result<D>;$/;"	T
+Item	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    type Item = Result<Vec<ByteString>>;$/;"	T
+Item	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    type Item = Result<Vec<String>>;$/;"	T
+LocatableError	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^pub struct LocatableError<T> {$/;"	s
+NextField	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub enum NextField<'a, T: ?Sized + 'a> {$/;"	g
+ParseError	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^pub enum ParseError {$/;"	g
+Play	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^struct Play {$/;"	s
+Play	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/nfl_plays.rs	/^struct Play {$/;"	s
+QuoteStyle	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^pub enum QuoteStyle {$/;"	g
+Rational	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/rational_numbers.rs	/^struct Rational {$/;"	s
+Reader	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub struct Reader<R> {$/;"	s
+Record	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/simple_missing.rs	/^struct Record {$/;"	s
+Record	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/simple_struct.rs	/^struct Record {$/;"	s
+RecordTerminator	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub enum RecordTerminator {$/;"	g
+Result	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^pub type Result<T> = result::Result<T, Error>;$/;"	T
+State	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^enum State {$/;"	g
+StringRecords	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub struct StringRecords<'a, R: 'a> {$/;"	s
+Target	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    type Target = Reader<R>;$/;"	T
+UnsafeByteFields	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^pub struct UnsafeByteFields<'a, R: 'a> {$/;"	s
+Val	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^enum Val { Unsigned(usize), Signed(isize), Bool(bool) }$/;"	g
+Writer	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^pub struct Writer<W: Write> {$/;"	s
+add	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn add(&mut self, c: u8) {$/;"	f
+addone	/Users/kaiyin/EclipseWorkspace/stridist/src/lib.rs	/^pub fn addone(x: i32) -> i32 {$/;"	f
+addtwo	/Users/kaiyin/EclipseWorkspace/stridist/src/distfuncs.rs	/^pub fn addtwo(x: i32) -> i32 {$/;"	f
+as_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn as_bytes<'r>(&'r mut self) -> &'r [u8] {$/;"	f
+as_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn as_string<'r>(&'r mut self) -> &'r str {$/;"	f
+ascii	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn ascii(self) -> Reader<R> {$/;"	f
+assert_svec_eq	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn assert_svec_eq<S, T>(got: Vec<Vec<S>>, expected: Vec<Vec<T>>)$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes(&self) -> &[u8] { &**self }$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes(&self) -> &[u8] { (*self).borrow_bytes() }$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes(&self) -> &[u8] { self }$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes(&self) -> &[u8] { self.as_bytes() }$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes(&self) -> &[u8] {$/;"	f
+borrow_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/borrow_bytes.rs	/^    fn borrow_bytes<'a>(&'a self) -> &'a [u8];$/;"	f
+bump	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn bump(&mut self) {$/;"	f
+byte_fields	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub unsafe fn byte_fields<'a>(&'a mut self) -> UnsafeByteFields<'a, R> {$/;"	f
+byte_headers	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn byte_headers(&mut self) -> Result<Vec<ByteString>> {$/;"	f
+byte_needs_quotes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn byte_needs_quotes(&self, b: u8) -> bool {$/;"	f
+byte_offset	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn byte_offset(&self) -> u64 {$/;"	f
+byte_record_to_utf8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^fn byte_record_to_utf8(record: Vec<ByteString>) -> Result<Vec<String>> {$/;"	f
+byte_records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn byte_records(b: &mut Bencher) {$/;"	f
+byte_records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn byte_records<'a>(&'a mut self) -> ByteRecords<'a, R> {$/;"	f
+byte_strings	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn byte_strings() {$/;"	f
+byte_strings_invalid_utf8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn byte_strings_invalid_utf8() {$/;"	f
+bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn bytes<'a, S>(bs: S) -> ByteString where S: Into<Vec<u8>> { bs.into() }$/;"	f
+cause	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^    fn cause(&self) -> Option<&StdError> {$/;"	f
+count	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    pub fn count(&self) -> u64 {$/;"	f
+create_index	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^pub fn create_index<R, W>(mut rdr: Reader<R>, mut wtr: W) -> Result<()>$/;"	f
+decode	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/rational_numbers.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Rational, D::Error> {$/;"	f
+decode	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn decode<'a, D: Decodable>(&'a mut self) -> DecodedRecords<'a, R, D> {$/;"	f
+decoded_records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn decoded_records(b: &mut Bencher) {$/;"	f
+decodes_to	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! decodes_to {$/;"	d
+delimiter	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn delimiter(mut self, delimiter: u8) -> Reader<R> {$/;"	f
+delimiter	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn delimiter(mut self, delimiter: u8) -> Writer<W> {$/;"	f
+deref	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn deref(&self) -> &Reader<R> { &self.rdr }$/;"	f
+deref_mut	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn deref_mut(&mut self) -> &mut Reader<R> { &mut self.rdr }$/;"	f
+description	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^    fn description(&self) -> &str {$/;"	f
+done	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn done(&self) -> bool {$/;"	f
+double_quote	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn double_quote(mut self, yes: bool) -> Reader<R> {$/;"	f
+double_quote	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn double_quote(mut self, yes: bool) -> Writer<W> {$/;"	f
+emit_bool	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_bool(&mut self, v: bool) -> Result<()> {$/;"	f
+emit_char	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_char(&mut self, v: char) -> Result<()> {$/;"	f
+emit_enum	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_enum<F>(&mut self, _: &str, f: F) -> Result<()>$/;"	f
+emit_enum_struct_variant	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_enum_struct_variant<F>(&mut self, v_name: &str, v_id: usize,$/;"	f
+emit_enum_struct_variant_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_enum_struct_variant_field<F>(&mut self, _: &str, _: usize, _: F)$/;"	f
+emit_enum_variant	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_enum_variant<F>(&mut self, v_name: &str, _: usize,$/;"	f
+emit_enum_variant_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_enum_variant_arg<F>(&mut self, _: usize, f: F) -> Result<()>$/;"	f
+emit_f32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_f32(&mut self, v: f32) -> Result<()> {$/;"	f
+emit_f64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_f64(&mut self, v: f64) -> Result<()> {$/;"	f
+emit_i16	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_i16(&mut self, v: i16) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_i32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_i32(&mut self, v: i32) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_i64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_i64(&mut self, v: i64) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_i8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_i8(&mut self, v: i8) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_isize	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_isize(&mut self, v: isize) -> Result<()> {$/;"	f
+emit_map	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_map<F>(&mut self, _: usize, _: F) -> Result<()>$/;"	f
+emit_map_elt_key	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_map_elt_key<F>(&mut self, _: usize, _: F) -> Result<()>$/;"	f
+emit_map_elt_val	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_map_elt_val<F>(&mut self, _: usize, _: F) -> Result<()>$/;"	f
+emit_nil	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_nil(&mut self) -> Result<()> { unimplemented!() }$/;"	f
+emit_option	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_option<F>(&mut self, f: F) -> Result<()>$/;"	f
+emit_option_none	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_option_none(&mut self) -> Result<()> {$/;"	f
+emit_option_some	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_option_some<F>(&mut self, f: F) -> Result<()>$/;"	f
+emit_seq	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_seq<F>(&mut self, _: usize, f: F) -> Result<()>$/;"	f
+emit_seq_elt	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_seq_elt<F>(&mut self, _: usize, f: F) -> Result<()>$/;"	f
+emit_str	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_str(&mut self, v: &str) -> Result<()> {$/;"	f
+emit_struct	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_struct<F>(&mut self, _: &str, len: usize, f: F) -> Result<()>$/;"	f
+emit_struct_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_struct_field<F>(&mut self, _: &str, f_idx: usize, f: F)$/;"	f
+emit_tuple	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_tuple<F>(&mut self, len: usize, f: F) -> Result<()>$/;"	f
+emit_tuple_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_tuple_arg<F>(&mut self, idx: usize, f: F) -> Result<()>$/;"	f
+emit_tuple_struct	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_tuple_struct<F>(&mut self, _: &str, _: usize, _: F)$/;"	f
+emit_tuple_struct_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_tuple_struct_arg<F>(&mut self, _: usize, _: F) -> Result<()>$/;"	f
+emit_u16	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_u16(&mut self, v: u16) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_u32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_u32(&mut self, v: u32) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_u64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_u64(&mut self, v: u64) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_u8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_u8(&mut self, v: u8) -> Result<()> { self.push_to_string(v) }$/;"	f
+emit_usize	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn emit_usize(&mut self, v: usize) -> Result<()> {$/;"	f
+encode	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn encode<E>(&mut self, e: E) -> Result<()> where E: Encodable {$/;"	f
+encodes_as	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! encodes_as {$/;"	d
+eq	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn eq(&self, &other: &u8) -> bool {$/;"	f
+err	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn err<'a, T, S>(&self, msg: S) -> Result<T> where S: Into<String> {$/;"	f
+err	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn err<'a, S, T>(&self, msg: S) -> Result<T> where S: Into<String> {$/;"	f
+error	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn error(&mut self, err: &str) -> Error {$/;"	f
+escape	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn escape(mut self, escape: Option<u8>) -> Reader<R> {$/;"	f
+escape	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn escape(mut self, escape: u8) -> Writer<W> {$/;"	f
+fail_parses_to	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! fail_parses_to {$/;"	d
+fail_writes_as	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! fail_writes_as {$/;"	d
+file_to_mem	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn file_to_mem(fp: &str) -> io::Cursor<Vec<u8>> {$/;"	f
+fill_buf	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn fill_buf(&mut self) -> io::Result<()> {$/;"	f
+flexible	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn flexible(mut self, yes: bool) -> Reader<R> {$/;"	f
+flexible	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn flexible(mut self, yes: bool) -> Writer<W> {$/;"	f
+float_to_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^fn float_to_string(v: f64) -> String {$/;"	f
+flush	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn flush(&mut self) -> Result<()> {$/;"	f
+fmt	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+from	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^    fn from(err: byteorder::Error) -> Error {$/;"	f
+from	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^    fn from(err: io::Error) -> Error { Error::Io(err) }$/;"	f
+from_buffer	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn from_buffer(buf: io::BufWriter<W>) -> Writer<W> {$/;"	f
+from_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn from_bytes<'a, V>(bytes: V) -> Reader<io::Cursor<Vec<u8>>>$/;"	f
+from_file	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn from_file<P: AsRef<Path>>(path: P) -> Result<Reader<fs::File>> {$/;"	f
+from_file	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn from_file<P: AsRef<Path>>(path: P) -> Result<Writer<fs::File>> {$/;"	f
+from_memory	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn from_memory() -> Writer<Vec<u8>> {$/;"	f
+from_reader	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn from_reader(rdr: R) -> Reader<R> {$/;"	f
+from_str	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/rational_numbers.rs	/^    fn from_str(s: &str) -> Result<Rational, String> {$/;"	f
+from_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn from_string<'a, S>(s: S) -> Reader<io::Cursor<Vec<u8>>>$/;"	f
+from_writer	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn from_writer(w: W) -> Writer<W> {$/;"	f
+has_headers	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn has_headers(mut self, yes: bool) -> Reader<R> {$/;"	f
+headers	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn headers(&mut self) -> Result<Vec<String>> {$/;"	f
+headers_eof	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn headers_eof() {$/;"	f
+headers_many_fields	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn headers_many_fields() {$/;"	f
+headers_one_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn headers_one_field() {$/;"	f
+headers_one_field_newlines	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn headers_one_field_newlines() {$/;"	f
+headers_trailing_lf	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn headers_trailing_lf() {$/;"	f
+index	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn index<S: Into<String>>(s: S) -> Indexed {$/;"	f
+index_nh	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn index_nh<S: Into<String>>(s: S) -> Indexed {$/;"	f
+index_with	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn index_with<S, F, G>(s: S, create: F, new: G) -> Indexed$/;"	f
+into_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn into_bytes(mut self) -> Vec<u8> {$/;"	f
+into_iter_result	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn into_iter_result(self) -> Option<Result<&'a T>> {$/;"	f
+into_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn into_string(self) -> String {$/;"	f
+invalid_utf8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn invalid_utf8() {$/;"	f
+is_crlf	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn is_crlf(&self) -> bool {$/;"	f
+is_end	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn is_end(&self) -> bool {$/;"	f
+is_record_term	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn is_record_term(&self, c: u8) -> bool {$/;"	f
+len	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn len(&self) -> usize {$/;"	f
+lg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/lib.rs	/^macro_rules! lg {$/;"	d
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/bench_large/huge.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/nfl_plays.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/rational_numbers.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/simple.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/simple_missing.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/examples/simple_struct.rs	/^fn main() {$/;"	f
+main	/Users/kaiyin/EclipseWorkspace/stridist/src/main.rs	/^fn main() {$/;"	f
+new	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    pub fn new(mut bytes: Vec<ByteString>) -> Decoded {$/;"	f
+new	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    pub fn new() -> Encoded { Encoded { record: vec![] } }$/;"	f
+next	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn next(idx: &mut Indexed) -> Vec<String> {$/;"	f
+next	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next(&mut self) -> Option<Result<&'a [u8]>> {$/;"	f
+next	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next(&mut self) -> Option<Result<D>> {$/;"	f
+next	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next(&mut self) -> Option<Result<Vec<ByteString>>> {$/;"	f
+next	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next(&mut self) -> Option<Result<Vec<String>>> {$/;"	f
+next_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn next_bytes(&mut self) -> NextField<[u8]> {$/;"	f
+next_data	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next_data(&mut self) -> NextField<[u8]> {$/;"	f
+next_eoc	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next_eoc(&self) -> NextField<[u8]> {$/;"	f
+next_eor	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn next_eor(&mut self) -> NextField<[u8]> {$/;"	f
+next_str	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn next_str(&mut self) -> NextField<str> {$/;"	f
+no_headers_first_record	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn no_headers_first_record() {$/;"	f
+no_headers_many_fields	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn no_headers_many_fields() {$/;"	f
+no_headers_no_skip	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn no_headers_no_skip() {$/;"	f
+no_headers_no_skip_one_record	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn no_headers_no_skip_one_record() {$/;"	f
+no_headers_one_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn no_headers_one_field() {$/;"	f
+nth	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn nth(idx: &mut Indexed, i: u64) -> Vec<String> {$/;"	f
+open	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    pub fn open(mut rdr: Reader<R>, mut idx: I) -> Result<Indexed<R, I>> {$/;"	f
+ordie	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn ordie<T, E: Debug+Display>(r: Result<T, E>) -> T {$/;"	f
+parse_error	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    fn parse_error(&self, err: ParseError) -> NextField<[u8]> {$/;"	f
+parses_to	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! parses_to {$/;"	d
+pop	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn pop(&mut self) -> Result<ByteString> {$/;"	f
+pop_from_str	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn pop_from_str<T: FromStr + Default>(&mut self) -> Result<T> {$/;"	f
+pop_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn pop_string(&mut self) -> Result<String> {$/;"	f
+push	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn push(&mut self, s: ByteString) {$/;"	f
+push_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn push_bytes<'a, S>(&mut self, s: S) -> Result<()>$/;"	f
+push_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn push_string(&mut self, s: String) {$/;"	f
+push_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn push_string<'a, S>(&mut self, s: S) -> Result<()>$/;"	f
+push_to_string	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    fn push_to_string<T: ToString>(&mut self, t: T) -> Result<()> {$/;"	f
+quote	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn quote(mut self, quote: u8) -> Reader<R> {$/;"	f
+quote	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn quote(mut self, quote: u8) -> Writer<W> {$/;"	f
+quote_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn quote_field(&self, mut s: &[u8]) -> ByteString {$/;"	f
+quote_style	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn quote_style(mut self, style: QuoteStyle) -> Writer<W> {$/;"	f
+raw_access	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn raw_access() {$/;"	f
+raw_records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn raw_records(b: &mut Bencher) {$/;"	f
+raw_unsafe_access	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn raw_unsafe_access() {$/;"	f
+read_bool	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_bool(&mut self) -> Result<bool> { self.pop_from_str() }$/;"	f
+read_char	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_char(&mut self) -> Result<char> {$/;"	f
+read_enum	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_enum<T, F>(&mut self, _: &str, f: F) -> Result<T>$/;"	f
+read_enum_struct_variant	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_struct_variant_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self, _: &str,$/;"	f
+read_enum_variant	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str], mut f: F)$/;"	f
+read_enum_variant_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, _: usize, f: F) -> Result<T>$/;"	f
+read_f32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_f32(&mut self) -> Result<f32> { self.pop_from_str() }$/;"	f
+read_f64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_f64(&mut self) -> Result<f64> { self.pop_from_str() }$/;"	f
+read_i16	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_i16(&mut self) -> Result<i16> { self.pop_from_str() }$/;"	f
+read_i32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_i32(&mut self) -> Result<i32> { self.pop_from_str() }$/;"	f
+read_i64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_i64(&mut self) -> Result<i64> { self.pop_from_str() }$/;"	f
+read_i8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_i8(&mut self) -> Result<i8> { self.pop_from_str() }$/;"	f
+read_isize	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_isize(&mut self) -> Result<isize> { self.pop_from_str() }$/;"	f
+read_map	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_map<T, F>(&mut self, _: F) -> Result<T>$/;"	f
+read_map_elt_key	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_map_elt_key<T, F>(&mut self, _: usize, _: F) -> Result<T>$/;"	f
+read_map_elt_val	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_map_elt_val<T, F>(&mut self, _: usize, _: F) -> Result<T>$/;"	f
+read_nil	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_nil(&mut self) -> Result<()> { unimplemented!() }$/;"	f
+read_option	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_option<T, F>(&mut self, mut f: F) -> Result<T>$/;"	f
+read_seq	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> Result<T>$/;"	f
+read_seq_elt	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_seq_elt<T, F>(&mut self, _: usize, f: F) -> Result<T>$/;"	f
+read_str	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_str(&mut self) -> Result<String> {$/;"	f
+read_struct	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_struct_field	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_struct_field<T, F>(&mut self, _: &str, _: usize, f: F)$/;"	f
+read_tuple	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_tuple<T, F>(&mut self, _: usize, f: F) -> Result<T>$/;"	f
+read_tuple_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_tuple_arg<T, F>(&mut self, _: usize, f: F) -> Result<T>$/;"	f
+read_tuple_struct	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_tuple_struct<T, F>(&mut self, _: &str, _: usize, _: F)$/;"	f
+read_tuple_struct_arg	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self, _: usize, _: F)$/;"	f
+read_u16	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_u16(&mut self) -> Result<u16> { self.pop_from_str() }$/;"	f
+read_u32	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_u32(&mut self) -> Result<u32> { self.pop_from_str() }$/;"	f
+read_u64	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_u64(&mut self) -> Result<u64> { self.pop_from_str() }$/;"	f
+read_u8	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_u8(&mut self) -> Result<u8> { self.pop_from_str() }$/;"	f
+read_usize	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/decoder.rs	/^    fn read_usize(&mut self) -> Result<usize> { self.pop_from_str() }$/;"	f
+reader	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn reader<'a>(rdr: &'a mut io::Cursor<Vec<u8>>)$/;"	f
+record_terminator	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn record_terminator(mut self, term: RecordTerminator) -> Reader<R> {$/;"	f
+record_terminator	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn record_terminator(mut self, term: RecordTerminator) -> Writer<W> {$/;"	f
+records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn records<'a>(&'a mut self) -> StringRecords<'a, R> {$/;"	f
+scratch	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn scratch() {$/;"	f
+seek	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    pub fn seek(&mut self, mut i: u64) -> Result<()> {$/;"	f
+seek	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn seek(&mut self, pos: u64) -> Result<()> {$/;"	f
+seeking	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^fn seeking() {$/;"	f
+set_first_len	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn set_first_len(&mut self, cur_len: usize) -> Result<()> {$/;"	f
+should_quote	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn should_quote(&self, field: &[u8]) -> Result<bool> {$/;"	f
+string_records	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/benches/bench.rs	/^fn string_records(b: &mut Bencher) {$/;"	f
+switch_headers_one_field1	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn switch_headers_one_field1() {$/;"	f
+switch_headers_one_field2	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/index/mod.rs	/^    fn switch_headers_one_field2() {$/;"	f
+unwrap	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/encoder.rs	/^    pub fn unwrap(self) -> Vec<ByteString> { self.record }$/;"	f
+unwrap	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/reader.rs	/^    pub fn unwrap(self) -> &'a T {$/;"	f
+w_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn w_bytes(&mut self, s: &[u8]) -> Result<()> {$/;"	f
+w_lineterm	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn w_lineterm(&mut self) -> Result<()> {$/;"	f
+w_user_bytes	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    fn w_user_bytes(&mut self, s: &[u8]) -> Result<()> {$/;"	f
+write	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn write<'a, I>(&mut self, r: I) -> Result<()>$/;"	f
+write_iter	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/writer.rs	/^    pub fn write_iter<'a, I, F>(&mut self, r: I) -> Result<()>$/;"	f
+writes_as	/Users/kaiyin/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/csv-0.14.4/src/tests.rs	/^macro_rules! writes_as {$/;"	d

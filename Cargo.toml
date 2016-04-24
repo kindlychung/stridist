@@ -4,4 +4,8 @@ version = "0.1.0"
 authors = ["Kaiyin Zhong <kindlychung@gmail.com>"]
 
 [dependencies]
-csv = "0.14.4"
+csv = "0.14"
+float-cmp = "0.2.1"
+docopt = "0.6"
+rustc-serialize = "0.3"  
+docopt_macros = "0.6"

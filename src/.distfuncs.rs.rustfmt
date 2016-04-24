@@ -13,11 +13,12 @@ pub fn ads(v1: &Vec<f64>, v2: &Vec<f64>) -> f64 {
 }
 
 use ::Strategy;
-pub fn dist(v1: &Vec<f64>, v2: &Vec<f64>, strategy: &Strategy) -> f64 {
-    match strategy {
-        &Strategy::Euclidean => euclidean(v1, v2),
-        &Strategy::Ads => ads(v1, v2),
+pub fn dist(v1: &Vec<f64>, v2: &Vec<f64>, strategy: Strategy) -> f64 {
+    let res = match strategy {
+        Strategy::Euclidean => euclidean(v1, v2),
+        Strategy::Ads => ads(v1, v2),
     }
+    res
 }
 
 

@@ -1,50 +1,37 @@
+#![feature(plugin)]
+#![plugin(docopt_macros)]
 extern crate csv;
 extern crate stridist;
+extern crate rustc_serialize;
+extern crate docopt;
 
+use stridist::distcsv::*;
+use stridist::Strategy;
 
-macro_rules! five_times {
-    ($x:expr) => (5 * $x);
-}
+const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
-macro_rules! myvec {
-    ( $( $x:expr ),* ) => {
-        {
-            let mut temp_vec = Vec::new();
-            $(
-                temp_vec.push($x);
-            )*
-            temp_vec
-        }
-    };
-}
+docopt!(Args derive Debug, "
+Usage: 
+    stridist <strfile> [--strategy <strategy>]  --out <outfile> 
+    stridist (--help | --version)
 
-
-macro_rules! let_ident {
-    ($v:ident) => (let $v = 3);
-}
-
-macro_rules! def_func {
-    () => [
-        fn return333() -> u32 {
-            333
-        }
-    ]
-}
+Options:
+    --help                   Show this message.
+    --version                Show the version of rustc.
+    --strategy <strategy>    Choose a strategy. At the moment there are two possibilities: Euclidean or Ads.
+                             Default is Ads, it's the simplest. 
+    --out <outfile>          Path to output file.
+", flag_out: String, flag_strategy: Option<Strategy>, arg_strfile: String);
 
 
 fn main() {
-    let mut rdr = csv::Reader::from_file("/tmp/xxx.csv").unwrap();
-    for record in rdr.decode() {
-        let (name, i1, i2, i3): (String, u32, u32, u32) = record.unwrap();
-        println!("{}: {}, {}, {}", name, i1, i2, i3);
+    let args: Args = Args::docopt().decode().unwrap_or_else(|e| e.exit());
+    if *&args.flag_version {
+        println!("{}", VERSION);
+        std::process::exit(0);
     }
-    let x: Vec<i32> = myvec!(1, 2, 3);
-    println!("{:?}", x);
-    println!("{}", five_times!(2 + 6));
-    let_ident!(xx);
-    println!("{}", xx);
-    def_func!();
-    println!("{}", return333());
-    use distfuncs::addtwo;
-    println!("{:?}", addtwo(32));
+    //println!("{:?}", args);
+    let rdr = || csv::Reader::from_file(&args.arg_strfile).unwrap().has_headers(false);
+    let (names, dist_mat) = csv_dist(rdr, &args.flag_strategy.unwrap_or(Strategy::Ads));
+    write_csv(&names, &dist_mat, &args.flag_out);
 }
